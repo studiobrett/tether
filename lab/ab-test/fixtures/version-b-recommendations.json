@@ -1,0 +1,34 @@
+{
+  "version": "B",
+  "label": "Standard Referral List",
+  "matchedOn": "ZIP code, diagnosis category, insurance eligibility",
+  "recommendations": [
+    {
+      "name": "Valley Community Mental Health Center",
+      "tier": "Clinical",
+      "description": "Comprehensive outpatient mental health services including individual therapy, group therapy, and medication management.",
+      "schedule": "Mon-Fri 9:00 AM - 5:00 PM",
+      "location": "123 Health Services Dr, 4.5 miles away",
+      "cost": "Accepts Medicaid, Medicare, and most private insurance",
+      "intake": "Call to schedule intake appointment"
+    },
+    {
+      "name": "Depression and Bipolar Support Alliance (DBSA) - Roanoke Chapter",
+      "tier": "Structured Community",
+      "description": "Peer-led support group for individuals living with depression or bipolar disorder. Open discussion format.",
+      "schedule": "Wednesdays 7:00 PM",
+      "location": "First Presbyterian Church, 567 Church St, 2.8 miles away",
+      "cost": "Free",
+      "intake": "Drop-in, newcomers welcome"
+    },
+    {
+      "name": "Roanoke Parks & Recreation - Adult Fitness Programs",
+      "tier": "Lifestyle",
+      "description": "Various fitness classes including yoga, aerobics, and strength training for adults of all fitness levels.",
+      "schedule": "Various times, see schedule",
+      "location": "Multiple locations throughout Roanoke",
+      "cost": "$5-15 per class or monthly membership",
+      "intake": "Register online or in person"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "patient": {
+    "name": "Marcus Thompson",
+    "age": 34,
+    "gender": "Male"
+  },
+  "presentingProblem": "Major Depressive Disorder, moderate severity. Second episode. First episode 5 years ago, resolved without treatment.",
+  "currentTreatment": "Sertraline 100mg, stabilized over past 6 weeks. Adherent to medication. Attending appointments consistently.",
+  "relevantHistory": [
+    "Works remotely as customer service rep, Monday through Friday 9am-5pm",
+    "Moved to the area 2 years ago",
+    "Lives alone",
+    "Relationship ended shortly after move",
+    "Reports limited social network locally"
+  ],
+  "functionalStatus": "Low energy, especially evenings. Mornings are better. Still working full-time but rarely leaves apartment outside of groceries.",
+  "patientReported": [
+    "Says he 'knows he should get out more' but finds most suggestions overwhelming",
+    "Tried one support group last year, described it as 'depressing' and didn't return",
+    "Used to enjoy hiking before the move but hasn't gone since he doesn't know anyone to go with"
+  ],
+  "clinicalGoal": "Increase social engagement and community connection to support recovery.",
+  "clinicianSettings": {
+    "diagnosis": "depression",
+    "treatmentPhase": "early_recovery",
+    "approvedTiers": ["clinical", "structured_community", "lifestyle"],
+    "notes": "Mornings are better for energy. Prefers side-by-side activities over face-to-face conversation. Past interest in hiking and outdoors."
+  }
+}
