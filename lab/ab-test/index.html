@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tether Research Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-left">
+                <div class="logo">
+                    <h1>Tether</h1>
+                </div>
+                <span class="study-badge">Research Study</span>
+            </div>
+            <!-- Case navigation - only shown on case screens -->
+            <div class="case-nav" id="case-nav" style="display: none;">
+                <div class="case-dots" id="case-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="case-label" id="case-label">Case 1 of 6</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+
+        <!-- Screen 1: Welcome + Screening -->
+        <section id="screen-welcome" class="screen active">
+            <div class="card welcome-content">
+                <div class="card-header">
+                    <h2>Community Resource Matching Study</h2>
+                </div>
+
+                <p class="intro-text">
+                    This study compares two approaches to matching mental health patients with community resources. You'll review 6 patient cases and pick which resource plan you'd prefer for each patient.
+                </p>
+
+                <div class="time-estimate">
+                    <span>Estimated time: 10-15 minutes</span>
+                </div>
+
+                <form id="screening-form">
+                    <div class="form-group">
+                        <label for="role">Which best describes your current role?</label>
+                        <select id="role" required>
+                            <option value="">Select your role...</option>
+                            <option value="MS-3">MS-3</option>
+                            <option value="MS-4">MS-4</option>
+                            <option value="PGY-1">PGY-1</option>
+                            <option value="PGY-2">PGY-2</option>
+                            <option value="PGY-3">PGY-3</option>
+                            <option value="PGY-4">PGY-4</option>
+                            <option value="PGY-5+">PGY-5+</option>
+                            <option value="Attending Physician">Attending Physician</option>
+                            <option value="NP">NP</option>
+                            <option value="PA">PA</option>
+                            <option value="Social Worker">Social Worker</option>
+                            <option value="Case Manager">Case Manager</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <div id="other-role-input" class="other-input">
+                            <input type="text" id="other-role" placeholder="Please specify your role">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="specialty">What is your specialty or area of focus? (optional)</label>
+                        <input type="text" id="specialty" placeholder="e.g., Psychiatry, Family Medicine, Social Work">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you currently provide or want to provide community resource referrals to patients?</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="provides-referrals" value="yes" required>
+                                <span>Yes</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="provides-referrals" value="no" required>
+                                <span>No</span>
+                            </label>
+                        </div>
+                        <div id="screening-fail" class="screening-fail">
+                            <p>Thanks for your interest! This study is designed for clinicians and trainees involved in patient referrals.</p>
+                        </div>
+                    </div>
+
+                    <div class="button-row">
+                        <button type="submit" id="continue-btn" class="btn btn-primary" disabled>Continue</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Screen 2: Instructions -->
+        <section id="screen-instructions" class="screen">
+            <div class="card instructions-content">
+                <div class="card-header">
+                    <h2>How This Works</h2>
+                </div>
+
+                <ol class="instructions-list">
+                    <li>You'll review 6 patient cases. Each includes a clinical vignette and two Community Care Plans (Plan 1 and Plan 2) with different resource recommendations.</li>
+                    <li>For each case, select the plan you'd prefer for this patient.</li>
+                    <li>Briefly explain why you preferred that plan.</li>
+                </ol>
+
+                <div class="note-box">
+                    <p>There are no right answers. We are interested in your reasoning for picking one plan over the other.</p>
+                </div>
+
+                <div class="button-row">
+                    <button id="begin-btn" class="btn btn-primary">Begin</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screens 3-8: Patient Cases (redesigned compact layout) -->
+        <section id="screen-case" class="screen">
+
+            <!-- Patient Vignette - compact card -->
+            <div class="vignette">
+                <div class="vignette-top">
+                    <div class="patient-id">
+                        <div class="avatar" id="patient-avatar">MT</div>
+                        <div>
+                            <div class="patient-name" id="patient-name">Marcus Thompson</div>
+                            <div class="patient-meta" id="patient-meta">34 · Male · Major Depressive Disorder</div>
+                        </div>
+                    </div>
+                    <div class="clinician-params" id="clinician-params">
+                        <!-- Chips populated by JS -->
+                    </div>
+                </div>
+                <div class="vignette-body" id="vignette-body">
+                    <!-- Combined paragraph populated by JS -->
+                </div>
+                <div class="clinical-goal">
+                    <strong>Goal:</strong> <span id="clinical-goal-text"></span>
+                </div>
+            </div>
+
+            <!-- Plans Comparison -->
+            <div class="plans-section">
+                <div class="plans-header">Compare Community Care Plans</div>
+                <div class="plans-subtext">Select which plan you'd prefer for this patient.</div>
+
+                <div class="plans-grid">
+                    <!-- Plan 1 -->
+                    <div class="plan-col" id="plan-col-1">
+                        <div class="plan-label">
+                            <div class="plan-label-text">Plan 1</div>
+                            <div class="plan-radio"><div class="plan-radio-dot"></div></div>
+                        </div>
+                        <div class="plan-resources" id="plan-1-resources">
+                            <!-- Resources populated by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Plan 2 -->
+                    <div class="plan-col" id="plan-col-2">
+                        <div class="plan-label">
+                            <div class="plan-label-text">Plan 2</div>
+                            <div class="plan-radio"><div class="plan-radio-dot"></div></div>
+                        </div>
+                        <div class="plan-resources" id="plan-2-resources">
+                            <!-- Resources populated by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reasoning + Navigation -->
+            <div class="reasoning-section">
+                <div class="reasoning-label">Why did you prefer this plan?</div>
+                <textarea
+                    class="reasoning-textarea"
+                    id="reasoning"
+                    placeholder="What made one plan feel more appropriate for this patient?"
+                ></textarea>
+                <div class="reasoning-footer">
+                    <div class="char-count" id="char-count">0 characters</div>
+                    <button class="next-btn disabled" id="next-case-btn">Next Case →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screen 9: Thank You -->
+        <section id="screen-thankyou" class="screen">
+            <div class="card thankyou-content">
+                <div class="success-icon">&#10003;</div>
+                <h2>Thank You!</h2>
+                <p>Your responses have been recorded. Thank you for participating in this research study.</p>
+                <p>Your feedback helps us understand how clinicians evaluate community resource recommendations for mental health patients.</p>
+
+                <div class="reveal-box">
+                    <h4>About This Study</h4>
+                    <p>One plan in each case was generated using standard proximity and availability filters. The other used psychometric matching, incorporating patient energy patterns, interaction preferences, sensory needs, and interests. We're testing whether clinicians can detect and prefer the psychometric approach.</p>
+                </div>
+
+                <p style="margin-top: 2rem; color: var(--slate-light); font-size: 0.875rem;">
+                    No identifying information was collected. You may close this tab.
+                </p>
+            </div>
+        </section>
+
+        <!-- Error state -->
+        <div id="error-message" class="error-message">
+            <p id="error-text">An error occurred while submitting your responses.</p>
+            <button id="retry-btn" class="btn btn-secondary">Retry</button>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script>
+        // Supabase config - uses env vars in production, falls back to local config
+        window.SUPABASE_URL = window.SUPABASE_URL || 'https://zklzcmpgwvadxmfycnbi.supabase.co';
+        window.SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY || 'sb_publishable_FuBZDblKMJUvmMTthwcGCg_ixS8oxO3';
+    </script>
+    <script src="survey.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tether Study Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Tether</h1>
+                <span class="study-badge">Results Dashboard</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Dashboard Header -->
+        <div class="dashboard-header">
+            <h2>Study Results</h2>
+            <div class="export-buttons">
+                <button id="export-csv" class="btn btn-secondary">Export CSV</button>
+                <button id="export-json" class="btn btn-secondary">Export JSON</button>
+                <button id="refresh-data" class="btn btn-primary">Refresh</button>
+            </div>
+        </div>
+
+        <!-- Summary Stats -->
+        <div class="stats-grid" id="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="total-responses">-</div>
+                <div class="stat-label">Total Responses</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="overall-preference">-</div>
+                <div class="stat-label">Psychometric Preference</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="threshold-status">-</div>
+                <div class="stat-label">vs 70% Threshold</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="cases-above-threshold">-</div>
+                <div class="stat-label">Cases Above Threshold</div>
+            </div>
+        </div>
+
+        <!-- Per-Case Breakdown -->
+        <div class="card case-breakdown">
+            <h3>Preference by Case</h3>
+            <p style="color: var(--text-muted); font-size: 0.875rem; margin-bottom: 1rem;">
+                Red line indicates 70% success threshold
+            </p>
+            <div class="case-bars" id="case-bars">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Response Table -->
+        <div class="card">
+            <h3 style="margin-bottom: 1rem;">Individual Responses</h3>
+            <div class="response-table-container">
+                <table class="response-table" id="response-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Role</th>
+                            <th>Specialty</th>
+                            <th>Case 1</th>
+                            <th>Case 2</th>
+                            <th>Case 3</th>
+                            <th>Case 4</th>
+                            <th>Case 5</th>
+                            <th>Case 6</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="response-tbody">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Empty state -->
+        <div id="empty-state" class="empty-state" style="display: none;">
+            <div class="empty-state-icon">&#128202;</div>
+            <p>No responses yet. Share the survey link to collect data.</p>
+        </div>
+
+        <!-- Case Detail Modal -->
+        <div id="case-detail-modal" class="case-detail-modal">
+            <div class="case-detail-content">
+                <div class="case-detail-header">
+                    <h3 id="modal-case-title">Case Details</h3>
+                    <button class="close-modal" id="close-modal">&times;</button>
+                </div>
+
+                <div class="stats-grid" style="margin-bottom: 1.5rem;">
+                    <div class="stat-card">
+                        <div class="stat-value" id="modal-psychometric-count">-</div>
+                        <div class="stat-label">Selected Psychometric</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="modal-logistics-count">-</div>
+                        <div class="stat-label">Selected Logistics</div>
+                    </div>
+                </div>
+
+                <h4 style="margin-bottom: 1rem;">Reasoning (Psychometric selections)</h4>
+                <div id="modal-psychometric-reasoning" class="reasoning-list">
+                    <!-- Populated by JS -->
+                </div>
+
+                <h4 style="margin: 1.5rem 0 1rem;">Reasoning (Logistics selections)</h4>
+                <div id="modal-logistics-reasoning" class="reasoning-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script>
+        // Supabase config - uses env vars in production, falls back to local config
+        window.SUPABASE_URL = window.SUPABASE_URL || 'https://zklzcmpgwvadxmfycnbi.supabase.co';
+        window.SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY || 'sb_publishable_FuBZDblKMJUvmMTthwcGCg_ixS8oxO3';
+    </script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
