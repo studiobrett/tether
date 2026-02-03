@@ -28,7 +28,7 @@
       "functionalStatus": "Remote customer service rep (Mon-Fri 9-5). Low energy in evenings, mornings are better. Rarely leaves apartment outside of work and groceries.",
       "patientReported": [
         "Finds most social suggestions overwhelming",
-        "Tried a support group once, described it as 'depressing'",
+        "Tried a support group once; described it as 'depressing'",
         "Used to enjoy hiking and outdoors before the move",
         "Prefers side-by-side activities over face-to-face conversation",
         "Open to short-term commitments, not ongoing obligations"
@@ -130,7 +130,7 @@
       "functionalStatus": "Graphic designer, mostly remote. Avoids crowded or unpredictable settings. Tolerates small structured groups (3-5 people). Evenings are worst for anxiety.",
       "patientReported": [
         "Enjoys drawing and ceramics but hasn't pursued them locally",
-        "Tried a large yoga class once, left early due to crowds",
+        "Tried a large yoga class once; left early due to crowds",
         "Needs to know what to expect before showing up somewhere new",
         "Comfortable one-on-one or groups of 3-5",
         "Mornings and early afternoons are best"
@@ -235,7 +235,7 @@
         "Played intramural basketball but stopped because he kept forgetting game times",
         "Gets bored quickly with anything repetitive or lecture-based",
         "Prefers immediate feedback over long-term goals",
-        "Hates paperwork and 'administrative overhead'"
+        "Dislikes paperwork and 'administrative overhead'"
       ],
       "clinicalGoal": "Build structured routines outside of academics and find social outlets that accommodate ADHD-related challenges with follow-through and time management.",
       "clinicianSettings": {
@@ -333,7 +333,7 @@
       ],
       "functionalStatus": "Electrician (Mon-Fri 7am-3:30pm), performing well at work. Evenings are high-risk. One close friend from work who drinks socially. Weekends without kids feel empty. Physically active.",
       "patientReported": [
-        "AA felt 'too religious,' but open to meeting others in recovery",
+        "AA felt 'too religious,' but remains open to meeting others in recovery",
         "Misses team sports camaraderie",
         "Wants structured evening/weekend activities",
         "Uncomfortable talking about feelings in groups, prefers natural conversation during activities",
@@ -435,11 +435,11 @@
       ],
       "functionalStatus": "High school sophomore, B/C grades with medication. Medication effective 7am-3pm. Afternoons unmedicated and unstructured, 4-6 hours daily on YouTube and gaming. Socially passive but participates if someone else organizes.",
       "patientReported": [
-        "Likes building things: Legos, Minecraft",
+        "Enjoys building things (Legos, Minecraft)",
         "Interested in computers/coding but hasn't tried classes",
         "Quit soccer because practices felt too long and repetitive",
         "Prefers hands-on over sitting and listening",
-        "Doesn't want anything that feels 'like more school'"
+        "Does not want anything that feels 'like more school'"
       ],
       "clinicalGoal": "Develop structured after-school and weekend activities that build social connections and executive function skills in a low-pressure environment.",
       "clinicianSettings": {
@@ -538,9 +538,9 @@
       "patientReported": [
         "Passionate about marine biology, can talk about it extensively",
         "Enjoys detailed scientific illustrations of sea creatures",
-        "Finds most teen activities 'too loud and confusing'",
+        "Finds most teen activities 'too loud and chaotic'",
         "Wants friends but doesn't know how to start conversations outside her interests",
-        "Needs to know exactly what will happen before going, including who will be there"
+        "Needs to know exactly what will happen before attending, including who will be there"
       ],
       "clinicalGoal": "Build social connections through interest-based activities in sensory-appropriate, predictable environments with small group sizes.",
       "clinicianSettings": {
