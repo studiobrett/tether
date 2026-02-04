@@ -487,6 +487,64 @@ body {
     color: var(--caution);
 }
 
+/* Warning color for contraindications */
+.param-chip.warning {
+    background: #FEF3C7;
+    color: #B45309;
+}
+
+/* Contraindications warning bar */
+.contraindications-warning {
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: #FFFBEB;
+    border: 1px solid #FCD34D;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #92400E;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contraindications-warning svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+/* Vignette sections */
+.vignette-section {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+}
+
+.vignette-section:first-of-type {
+    margin-top: 14px;
+}
+
+.section-content {
+    font-size: 14px;
+    color: var(--slate);
+    line-height: 1.6;
+}
+
+/* Patient preferences section - highlighted */
+.vignette-section.preferences {
+    background: #F8FAFC;
+    border-left: 3px solid var(--teal);
+    border-top: none;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 12px 20px;
+    margin-top: 12px;
+}
+
+.vignette-section.preferences .section-content {
+    color: var(--slate);
+}
+
 .vignette-body {
     margin-top: 14px;
     font-size: 14px;

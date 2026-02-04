@@ -201,36 +201,40 @@ function renderResourceCard(resource) {
     `;
 }
 
-// Build compact vignette body paragraph
-function buildVignetteBody(caseData) {
-    // Combine presenting problem, current treatment, relevant history, and functional status
-    // into a single flowing paragraph
+// Build clinical summary section
+function buildClinicalSummary(caseData) {
     let parts = [];
-
-    // Start with presenting problem (shortened)
     if (caseData.presentingProblem) {
         parts.push(caseData.presentingProblem);
     }
-
-    // Add current treatment
     if (caseData.currentTreatment) {
         parts.push(caseData.currentTreatment);
     }
+    return parts.join(' ');
+}
 
-    // Add key relevant history items (pick most important, make it flow)
+// Build history and functional status section
+function buildHistoryStatus(caseData) {
+    let parts = [];
     if (caseData.relevantHistory && caseData.relevantHistory.length > 0) {
-        // Join history items with commas, but keep it brief
-        const historyText = caseData.relevantHistory.slice(0, 3).join(' ');
-        parts.push(historyText);
+        parts.push(caseData.relevantHistory.join(' '));
     }
-
-    // Add functional status
     if (caseData.functionalStatus) {
         parts.push(caseData.functionalStatus);
     }
-
     return parts.join(' ');
 }
+
+// Build patient preferences section
+function buildPatientPreferences(caseData) {
+    if (caseData.patientReported && caseData.patientReported.length > 0) {
+        return caseData.patientReported.map(item => `• ${item}`).join('<br>');
+    }
+    return '';
+}
+
+// Warning icon SVG
+const WARNING_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>';
 
 // Load a case into the UI
 function loadCase(index) {
@@ -260,15 +264,21 @@ function loadCase(index) {
     } else {
         chipsHtml += `<div class="param-chip">${tiers.join(', ')}</div>`;
     }
-
-    // Contraindications chip (caution style if present)
-    if (caseData.clinicianSettings.contraindications && caseData.clinicianSettings.contraindications !== 'None specified') {
-        chipsHtml += `<div class="param-chip caution">${caseData.clinicianSettings.contraindications}</div>`;
-    }
     paramsContainer.innerHTML = chipsHtml;
 
-    // Update vignette body (combined paragraph)
-    document.getElementById('vignette-body').textContent = buildVignetteBody(caseData);
+    // Contraindications warning (show below header when present)
+    const contraindicationsWarning = document.getElementById('contraindications-warning');
+    if (caseData.clinicianSettings.contraindications && caseData.clinicianSettings.contraindications !== 'None specified') {
+        contraindicationsWarning.innerHTML = `${WARNING_ICON}<span><strong>Contraindication:</strong> ${caseData.clinicianSettings.contraindications}</span>`;
+        contraindicationsWarning.style.display = 'flex';
+    } else {
+        contraindicationsWarning.style.display = 'none';
+    }
+
+    // Update vignette sections
+    document.getElementById('clinical-summary').textContent = buildClinicalSummary(caseData);
+    document.getElementById('history-status').textContent = buildHistoryStatus(caseData);
+    document.getElementById('patient-preferences').innerHTML = buildPatientPreferences(caseData);
 
     // Update clinical goal
     document.getElementById('clinical-goal-text').textContent = caseData.clinicalGoal;
@@ -310,8 +320,9 @@ function selectPlan(planNumber) {
 function updateNextButton() {
     const reasoning = document.getElementById('reasoning').value.trim();
     const btn = document.getElementById('next-case-btn');
+    const minChars = 10;
 
-    if (selectedPlan && reasoning.length > 0) {
+    if (selectedPlan && reasoning.length >= minChars) {
         btn.classList.remove('disabled');
         btn.classList.add('active');
     } else {
@@ -392,7 +403,8 @@ function hideError() {
 
 // Handle next case button click
 async function handleNextCase() {
-    if (!selectedPlan || !document.getElementById('reasoning').value.trim()) {
+    const reasoning = document.getElementById('reasoning').value.trim();
+    if (!selectedPlan || reasoning.length < 10) {
         return;
     }
 

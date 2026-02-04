@@ -128,7 +128,7 @@
         <!-- Screens 3-8: Patient Cases (redesigned compact layout) -->
         <section id="screen-case" class="screen">
 
-            <!-- Patient Vignette - compact card -->
+            <!-- Patient Vignette - sectioned card -->
             <div class="vignette">
                 <div class="vignette-top">
                     <div class="patient-id">
@@ -142,9 +142,27 @@
                         <!-- Chips populated by JS -->
                     </div>
                 </div>
-                <div class="vignette-body" id="vignette-body">
-                    <!-- Combined paragraph populated by JS -->
+
+                <!-- Contraindications warning (shown only when present) -->
+                <div class="contraindications-warning" id="contraindications-warning" style="display: none;">
+                    <!-- Populated by JS -->
                 </div>
+
+                <!-- Clinical Summary section -->
+                <div class="vignette-section" id="section-clinical">
+                    <div class="section-content" id="clinical-summary"></div>
+                </div>
+
+                <!-- History & Functional Status section -->
+                <div class="vignette-section" id="section-history">
+                    <div class="section-content" id="history-status"></div>
+                </div>
+
+                <!-- Patient Preferences section (highlighted) -->
+                <div class="vignette-section preferences" id="section-preferences">
+                    <div class="section-content" id="patient-preferences"></div>
+                </div>
+
                 <div class="clinical-goal">
                     <strong>Goal:</strong> <span id="clinical-goal-text"></span>
                 </div>
@@ -186,7 +204,7 @@
                 <textarea
                     class="reasoning-textarea"
                     id="reasoning"
-                    placeholder="What made one plan feel more appropriate for this patient?"
+                    placeholder="What made one plan feel more appropriate? Name any specific resources or features that drove your decision."
                 ></textarea>
                 <div class="reasoning-footer">
                     <div class="char-count" id="char-count">0 characters</div>
