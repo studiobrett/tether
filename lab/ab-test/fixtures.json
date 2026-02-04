@@ -18,20 +18,22 @@
         "diagnosis": "Major Depressive Disorder, moderate, recurrent",
         "ageGroup": "Mature Adult"
       },
-      "presentingProblem": "Second depressive episode triggered by social isolation after relocating to Roanoke 2 years ago. Stabilized on sertraline 100mg over the past 6 weeks.",
-      "currentTreatment": "Sertraline 100mg daily. Adherent to medication and appointments.",
+      "presentingProblem": "Second depressive episode. First episode 5 years ago, resolved without treatment. Current episode prompted by social isolation after relocation.",
+      "currentTreatment": "Sertraline 100mg daily, stabilized over past 6 weeks. Adherent to medication and appointments.",
       "relevantHistory": [
-        "Lives alone, limited local social network",
-        "Moved for a relationship that ended",
+        "Works remotely as customer service rep, Mon-Fri 9am-5pm",
+        "Moved to Roanoke 2 years ago for a relationship that ended",
+        "Lives alone in an apartment",
+        "Limited local social network",
         "No substance use concerns"
       ],
-      "functionalStatus": "Remote customer service rep (Mon-Fri 9-5). Low energy in evenings, mornings are better. Rarely leaves apartment outside of work and groceries.",
+      "functionalStatus": "Low energy, especially evenings. Mornings are better. Working full-time but rarely leaves apartment outside of groceries.",
       "patientReported": [
-        "Finds most social suggestions overwhelming",
-        "Tried a support group once; described it as 'depressing'",
-        "Used to enjoy hiking and outdoors before the move",
-        "Prefers side-by-side activities over face-to-face conversation",
-        "Open to short-term commitments, not ongoing obligations"
+        "Says he knows he should get out more but finds most suggestions overwhelming",
+        "Tried one support group last year, described it as 'depressing' and didn't return",
+        "Used to enjoy hiking and being outdoors before the move but hasn't gone since",
+        "Prefers doing activities alongside others rather than face-to-face conversation",
+        "Open to short-term commitments but not ongoing obligations"
       ],
       "clinicalGoal": "Increase social engagement and community connection to support recovery.",
       "clinicianSettings": {
@@ -51,29 +53,29 @@
           {
             "name": "Blue Ridge Hiking Club - Beginner Group",
             "tier": "Lifestyle",
-            "description": "Weekly beginner group hikes, casual pace. Members range from 20s to 60s.",
-            "schedule": "Sat 8 AM, 2 hrs",
-            "location": "Carvins Cove Trailhead, 4.1 mi",
+            "description": "Weekly beginner-friendly group hikes on local trails. Casual pace with no experience required. Members range from 20s to 60s.",
+            "schedule": "Saturdays 8:00 AM, 2 hours",
+            "location": "Carvins Cove Trailhead, 4.1 miles away",
             "cost": "Free",
-            "intake": "Drop-in"
+            "intake": "Drop-in, no registration required"
           },
           {
             "name": "CBT Skills Group at Valley Behavioral Health",
             "tier": "Clinical",
-            "description": "Structured behavioral activation and thought patterns group. Licensed psychologist. 6-8 participants.",
-            "schedule": "Thu 10 AM, 8 wks",
-            "location": "Valley Behavioral Health, 3.2 mi",
+            "description": "Structured cognitive behavioral therapy skills group focused on behavioral activation and thought patterns. Led by licensed psychologist.",
+            "schedule": "Thursdays 10:00 AM, 8 weeks",
+            "location": "Valley Behavioral Health, 3.2 miles away",
             "cost": "Insurance accepted",
-            "intake": "Provider referral"
+            "intake": "Referral from provider, next group starts in 2 weeks"
           },
           {
             "name": "NAMI Peer-to-Peer Course",
             "tier": "Structured Community",
-            "description": "Free 8-session mental health recovery education taught by trained peers with lived experience.",
-            "schedule": "Sat 9 AM, 8 wks",
-            "location": "Community Center, 1.8 mi",
+            "description": "Free 8-session educational program about mental health recovery taught by trained peers with lived experience.",
+            "schedule": "Saturdays 9:00 AM, 8 weeks",
+            "location": "Community Center, 1.8 miles away",
             "cost": "Free",
-            "intake": "Registration required"
+            "intake": "Registration required, next session starts in 2 weeks"
           }
         ]
       },
@@ -84,28 +86,28 @@
           {
             "name": "Depression and Bipolar Support Alliance (DBSA) - Roanoke",
             "tier": "Structured Community",
-            "description": "Peer-led support group for depression/bipolar. Open discussion format, circle setting.",
-            "schedule": "Wed 7 PM, 90 min",
-            "location": "First Presbyterian Church, 1.2 mi",
+            "description": "Peer-led support group for individuals living with depression or bipolar disorder. Open discussion format in a circle setting.",
+            "schedule": "Wednesdays 7:00 PM, 90 minutes",
+            "location": "First Presbyterian Church, 1.2 miles away",
             "cost": "Free",
-            "intake": "Drop-in"
+            "intake": "Drop-in, newcomers welcome"
           },
           {
-            "name": "Valley CMHC - Outpatient Group Therapy",
+            "name": "Valley Community Mental Health Center - Outpatient Group Therapy",
             "tier": "Clinical",
-            "description": "Process-oriented group therapy for mood disorders. Licensed clinical social worker. Ongoing enrollment.",
-            "schedule": "Tue 5:30 PM, weekly",
-            "location": "Valley CMHC, 1.0 mi",
-            "cost": "Sliding scale, insurance",
-            "intake": "Call for intake"
+            "description": "Process-oriented group therapy for adults with mood disorders. Led by licensed clinical social worker. Ongoing enrollment.",
+            "schedule": "Tuesdays 5:30 PM, ongoing weekly",
+            "location": "Valley CMHC, 1.0 miles away",
+            "cost": "Sliding scale, insurance accepted",
+            "intake": "Call to schedule intake appointment"
           },
           {
-            "name": "Roanoke Parks & Rec - Adult Fitness Programs",
+            "name": "Roanoke Parks & Recreation - Adult Fitness Programs",
             "tier": "Lifestyle",
-            "description": "Group fitness classes: yoga, aerobics, strength training. Multiple city recreation centers.",
-            "schedule": "Multiple daily, Mon-Sat",
-            "location": "Eureka Rec Center, 0.9 mi",
-            "cost": "$5/class or $40/mo",
+            "description": "Various group fitness classes including yoga, aerobics, and strength training for adults. Classes held at multiple city recreation centers.",
+            "schedule": "Multiple times daily, Mon-Sat",
+            "location": "Eureka Recreation Center, 0.9 miles away",
+            "cost": "$5 per class or $40 monthly pass",
             "intake": "Register online or walk in"
           }
         ]
@@ -120,20 +122,22 @@
         "diagnosis": "Generalized Anxiety Disorder",
         "ageGroup": "Mature Adult"
       },
-      "presentingProblem": "Chronic worry and physical tension escalating over the past year. Avoids social situations where she might be put on the spot. GI complaints and insomnia.",
-      "currentTreatment": "Escitalopram 10mg for 3 months, seeing improvement. Biweekly CBT.",
+      "presentingProblem": "Chronic worry and physical tension escalating over the past year. Difficulty sleeping, muscle tension, GI complaints. Avoids social situations where she might be 'put on the spot.'",
+      "currentTreatment": "Escitalopram 10mg daily for 3 months. Starting to see improvement in baseline worry but still avoids most social situations. Seeing therapist biweekly for CBT.",
       "relevantHistory": [
-        "Lives with partner, moved from larger city 18 months ago for partner's job",
-        "Left behind a close-knit friend group",
+        "Works as a graphic designer at a small agency, mostly remote with occasional in-office days",
+        "Lives with her partner in an apartment",
+        "Moved from a larger city 18 months ago for partner's job",
+        "Left behind a close-knit friend group she misses",
         "No substance use concerns"
       ],
-      "functionalStatus": "Graphic designer, mostly remote. Avoids crowded or unpredictable settings. Tolerates small structured groups (3-5 people). Evenings are worst for anxiety.",
+      "functionalStatus": "Functioning well at work (remote helps). Avoids crowded or unpredictable social settings. Tolerates small, structured groups better than large open ones. Evenings are when anxiety spikes most.",
       "patientReported": [
-        "Enjoys drawing and ceramics but hasn't pursued them locally",
-        "Tried a large yoga class once; left early due to crowds",
-        "Needs to know what to expect before showing up somewhere new",
-        "Comfortable one-on-one or groups of 3-5",
-        "Mornings and early afternoons are best"
+        "Enjoys creative activities like drawing and ceramics but hasn't pursued them locally",
+        "Tried a large yoga class once but left early because it was too crowded and she felt watched",
+        "Prefers knowing exactly what to expect before showing up somewhere new",
+        "Comfortable one-on-one or in groups of 3-5 people",
+        "Mornings and early afternoons are her best times"
       ],
       "clinicalGoal": "Gradual social re-engagement with structured, low-pressure activities that build tolerance without triggering avoidance.",
       "clinicianSettings": {
@@ -153,29 +157,29 @@
           {
             "name": "Roanoke Clay Studio - Small Group Ceramics",
             "tier": "Lifestyle",
-            "description": "Beginner ceramics, max 6 students. Instructor-guided with individual workstations.",
-            "schedule": "Sat 10 AM, 6 wks",
-            "location": "Roanoke Clay Studio, 2.4 mi",
-            "cost": "$120/6 wks, materials included",
+            "description": "Beginner ceramics class in a small studio setting. Maximum 6 students per session. Instructor-guided with individual workstations.",
+            "schedule": "Saturdays 10:00 AM, 6-week series",
+            "location": "Roanoke Clay Studio, 2.4 miles away",
+            "cost": "$120 for 6-week series, materials included",
             "intake": "Register online, class roster shared in advance"
           },
           {
             "name": "Anxiety Management Skills Group - Valley Behavioral Health",
             "tier": "Clinical",
-            "description": "Structured CBT anxiety group. Closed group of 5-6. Predictable session format.",
-            "schedule": "Wed 11 AM, 10 wks",
-            "location": "Valley Behavioral Health, 3.2 mi",
+            "description": "Structured CBT-based group focused on anxiety management techniques. Closed group of 5-6 participants. Curriculum-driven with predictable session format.",
+            "schedule": "Wednesdays 11:00 AM, 10 weeks",
+            "location": "Valley Behavioral Health, 3.2 miles away",
             "cost": "Insurance accepted",
-            "intake": "Provider referral, pre-group orientation"
+            "intake": "Provider referral, pre-group orientation provided"
           },
           {
             "name": "Roanoke Sketch Club - Weekend Meetup",
             "tier": "Lifestyle",
-            "description": "Informal sketch meetup at coffee shops. Members draw independently. Conversation optional.",
-            "schedule": "Sun 9 AM, 2 hrs",
-            "location": "Rotating coffee shops, 1-3 mi",
-            "cost": "Free",
-            "intake": "Drop-in, locations posted weekly"
+            "description": "Informal sketch meetup at local coffee shops. Members draw independently in the same space. Conversation is optional, not expected.",
+            "schedule": "Sundays 9:00 AM, 2 hours",
+            "location": "Rotating coffee shops, typically 1-3 miles away",
+            "cost": "Free (buy your own coffee)",
+            "intake": "Drop-in, locations posted weekly on group page"
           }
         ]
       },
@@ -186,29 +190,29 @@
           {
             "name": "Calm Minds Anxiety Support Group - Valley Behavioral Health",
             "tier": "Clinical",
-            "description": "Therapist-led group for anxiety disorders. Coping strategies and peer support. 6-8 participants.",
-            "schedule": "Thu 6 PM, 8 wks",
-            "location": "Valley Behavioral Health, 2.1 mi",
+            "description": "Weekly therapist-led group for adults with anxiety disorders. Focuses on coping strategies and peer support. 6-8 participants per group. Led by licensed clinical social worker.",
+            "schedule": "Thursdays 6:00 PM, 8 weeks",
+            "location": "Valley Behavioral Health, 2.1 miles away",
             "cost": "Insurance accepted",
-            "intake": "Referral required"
+            "intake": "Referral required, call to schedule"
           },
           {
-            "name": "Valley CMHC - Anxiety Disorders Program",
+            "name": "Valley Community Mental Health Center - Anxiety Disorders Program",
             "tier": "Clinical",
-            "description": "Comprehensive outpatient anxiety treatment. Individual and small-group therapy options.",
+            "description": "Comprehensive outpatient anxiety treatment with individual and small-group therapy options. Multiple group formats available.",
             "schedule": "Mon-Fri, various times",
-            "location": "Valley CMHC, 1.0 mi",
-            "cost": "Sliding scale, insurance",
-            "intake": "Call for intake"
+            "location": "Valley CMHC, 1.0 miles away",
+            "cost": "Sliding scale, insurance accepted",
+            "intake": "Call to schedule intake appointment"
           },
           {
             "name": "Roanoke Community Center - Gentle Yoga (Small Class)",
             "tier": "Lifestyle",
-            "description": "Beginner yoga, quiet studio room. Capped at 10. Instructor-led, no partner work.",
-            "schedule": "Mon/Wed 5:30 PM, drop-in",
-            "location": "Roanoke Community Center, 1.6 mi",
-            "cost": "$10/class",
-            "intake": "Walk in"
+            "description": "Beginner-friendly yoga in a quiet studio room. Capped at 10 participants. Instructor-led with no partner work.",
+            "schedule": "Mondays and Wednesdays 5:30 PM, drop-in",
+            "location": "Roanoke Community Center, 1.6 miles away",
+            "cost": "$10 per class",
+            "intake": "Walk-in welcome"
           }
         ]
       }
@@ -222,20 +226,22 @@
         "diagnosis": "ADHD, Combined Type",
         "ageGroup": "Young Adult"
       },
-      "presentingProblem": "Diagnosed at 19 after academic struggles. Medication helps focus in class but social life and daily structure remain chaotic. Frequently forgets commitments or signs up and never follows through.",
-      "currentTreatment": "Adderall XR 20mg daily, mornings. Monthly psychiatrist visits. No therapy.",
+      "presentingProblem": "Diagnosed at 19 during sophomore year after academic struggles. Medication has improved focus in class but social life and daily structure remain chaotic. Frequently forgets commitments, double-books, or signs up for things and never follows through.",
+      "currentTreatment": "Adderall XR 20mg daily, taken mornings. Sees psychiatrist monthly for medication management. No therapy currently.",
       "relevantHistory": [
-        "Lives off-campus with two roommates",
-        "Socially active but relationships stay surface-level",
-        "Occasional weekend drinking, no concerns"
+        "Senior at Virginia Tech, studying information technology",
+        "Lives in off-campus apartment with two roommates",
+        "Active socially but relationships are surface-level; struggles to maintain deeper friendships",
+        "Part-time job at campus IT help desk, 15 hours/week",
+        "No substance use concerns beyond occasional weekend drinking"
       ],
-      "functionalStatus": "Virginia Tech senior, IT major. Part-time campus IT help desk (15 hrs/wk). Functions well medicated (8am-4pm). Evenings unstructured, hyperfocuses on gaming late at night.",
+      "functionalStatus": "Functions well when medicated (roughly 8am-4pm). Evenings are unstructured and unproductive. Hyperfocuses on video games late at night, disrupting sleep. Registration and scheduling tasks feel like major barriers.",
       "patientReported": [
-        "Loves hands-on activities, building and fixing things",
-        "Played intramural basketball but stopped because he kept forgetting game times",
+        "Loves hands-on activities, especially anything involving building or fixing things",
+        "Played intramural basketball freshman year but stopped because he kept forgetting game times",
         "Gets bored quickly with anything repetitive or lecture-based",
-        "Prefers immediate feedback over long-term goals",
-        "Dislikes paperwork and 'administrative overhead'"
+        "Prefers activities with immediate feedback rather than long-term goals",
+        "Hates paperwork, forms, and 'administrative overhead'"
       ],
       "clinicalGoal": "Build structured routines outside of academics and find social outlets that accommodate ADHD-related challenges with follow-through and time management.",
       "clinicianSettings": {
@@ -254,29 +260,29 @@
           {
             "name": "NRV Makerspace - Open Build Hours",
             "tier": "Lifestyle",
-            "description": "Community workshop: 3D printers, laser cutters, woodworking, electronics. Drop in and work on whatever you want.",
-            "schedule": "Tue/Thu/Sat 10 AM-4 PM",
-            "location": "NRV Makerspace, 1.3 mi",
-            "cost": "Free with student ID",
-            "intake": "Walk in, sign waiver"
+            "description": "Community workshop with 3D printers, laser cutters, woodworking tools, and electronics stations. Drop in anytime during open hours and work on whatever you want. Staff available to help.",
+            "schedule": "Tue/Thu/Sat 10:00 AM - 4:00 PM, drop-in",
+            "location": "NRV Makerspace, 1.3 miles from campus",
+            "cost": "Free for students with college ID",
+            "intake": "Walk in, sign liability waiver on first visit"
           },
           {
             "name": "Blacksburg Pickup Basketball",
             "tier": "Lifestyle",
-            "description": "Informal pickup games via group chat. No teams, no schedule, no season commitment.",
-            "schedule": "Most weekday afternoons 3-5 PM",
+            "description": "Informal pickup basketball games organized through a group chat. Games happen when enough people show up. No teams, no schedules, no season commitment.",
+            "schedule": "Most weekday afternoons 3:00-5:00 PM",
             "location": "War Memorial Gym, on campus",
             "cost": "Free with student ID",
-            "intake": "Just show up"
+            "intake": "Just show up, ask to join a game"
           },
           {
             "name": "CHADD Support Group - New River Valley",
             "tier": "Structured Community",
-            "description": "Monthly young adult ADHD meetup. Education and peer sharing. 8-12 people. Run by a counselor with ADHD.",
-            "schedule": "1st Sat/month, 11 AM, 90 min",
-            "location": "Blacksburg Library, 0.5 mi",
+            "description": "Monthly meetup for young adults with ADHD. Mix of education and peer sharing. Informal format, usually 8-12 people. Run by an adult with ADHD who is also a licensed counselor.",
+            "schedule": "First Saturday of each month, 11:00 AM, 90 minutes",
+            "location": "Blacksburg Library, 0.5 miles from campus",
             "cost": "Free",
-            "intake": "Drop-in"
+            "intake": "Drop-in, no registration"
           }
         ]
       },
@@ -287,26 +293,26 @@
           {
             "name": "Virginia Tech Counseling Center - ADHD Support Group",
             "tier": "Structured Community",
-            "description": "Weekly facilitated group for students with ADHD. Process-oriented discussion. Full semester commitment.",
-            "schedule": "Mon 4 PM, weekly, full semester",
+            "description": "Weekly facilitated group for students with ADHD. Process-oriented discussion of academic and social challenges. Led by a staff psychologist. Runs full semester.",
+            "schedule": "Mondays 4:00 PM, weekly, full semester commitment",
             "location": "McComas Hall, on campus",
             "cost": "Free with student health fee",
-            "intake": "Screening appointment, 2-wk waitlist"
+            "intake": "Schedule screening appointment, 2-week waitlist"
           },
           {
             "name": "Blacksburg Community Center - Adult Rec League Basketball",
             "tier": "Lifestyle",
-            "description": "Organized rec league with set teams and scheduled games. 10-week season. Games officiated.",
-            "schedule": "Wed 7-9 PM, 10 wks",
-            "location": "Blacksburg Community Center, 1.5 mi",
-            "cost": "$75 registration",
-            "intake": "Register online by deadline, draft night required"
+            "description": "Organized recreational basketball league with set teams, scheduled games, and a 10-week season. Games officiated. Registration required before season start.",
+            "schedule": "Wednesday evenings 7:00-9:00 PM, 10-week season",
+            "location": "Blacksburg Community Center, 1.5 miles from campus",
+            "cost": "$75 registration fee",
+            "intake": "Register online by season deadline, team draft night required"
           },
           {
             "name": "Mindfulness and Focus Workshop Series",
             "tier": "Lifestyle",
-            "description": "4-week workshop on mindfulness techniques for focus. Lecture and guided practice format.",
-            "schedule": "Fri 2 PM, 4 wks",
+            "description": "4-week workshop series on mindfulness techniques for improving focus and managing distraction. Lecture and guided practice format.",
+            "schedule": "Fridays 2:00 PM, 4 weeks",
             "location": "Student Success Center, on campus",
             "cost": "Free",
             "intake": "Register through student portal"
@@ -323,21 +329,22 @@
         "diagnosis": "Alcohol Use Disorder, moderate",
         "ageGroup": "Mature Adult"
       },
-      "presentingProblem": "Escalating drinking over 3 years post-divorce. Completed outpatient detox 60 days ago. Currently sober but struggling with evenings and weekends.",
-      "currentTreatment": "Naltrexone 50mg daily. Completed IOP 4 weeks ago. Psychiatrist biweekly, therapy weekly.",
+      "presentingProblem": "Escalating drinking over 3 years following divorce. Averaging 6-8 drinks nightly. One DUI 8 months ago. Completed outpatient detox 60 days ago. Currently sober but struggling with evenings and weekends.",
+      "currentTreatment": "Naltrexone 50mg daily. Completed IOP 4 weeks ago. Sees psychiatrist biweekly. Attending therapy weekly.",
       "relevantHistory": [
-        "Divorced, shares custody of two kids (8 and 11) every other weekend",
+        "Works as an electrician, Mon-Fri 7am-3:30pm",
+        "Divorced, shares custody of two kids (ages 8 and 11), has them every other weekend",
         "Lives alone in a rented townhouse",
-        "Drinking was solitary, at home, evenings",
-        "Former college baseball player"
+        "Drinking was primarily solitary, at home, evenings",
+        "Former college baseball player, stays physically active"
       ],
-      "functionalStatus": "Electrician (Mon-Fri 7am-3:30pm), performing well at work. Evenings are high-risk. One close friend from work who drinks socially. Weekends without kids feel empty. Physically active.",
+      "functionalStatus": "Performing well at work. Evenings are the high-risk window. Has one close friend from work who drinks socially. Weekends without kids feel empty and dangerous. Physically capable and active.",
       "patientReported": [
-        "AA felt 'too religious,' but remains open to meeting others in recovery",
-        "Misses team sports camaraderie",
-        "Wants structured evening/weekend activities",
-        "Uncomfortable talking about feelings in groups, prefers natural conversation during activities",
-        "Needs alcohol-free environments"
+        "Says AA felt 'too religious' when he tried it once, but open to meeting other people in recovery",
+        "Misses the camaraderie of team sports",
+        "Wants to fill evening and weekend hours with something structured",
+        "Uncomfortable talking about feelings in groups, prefers activities where conversation happens naturally",
+        "Needs environments where alcohol is not present"
       ],
       "clinicalGoal": "Build a sober social network and structured evening/weekend activities to reduce relapse risk during high-vulnerability windows.",
       "clinicianSettings": {
@@ -357,29 +364,29 @@
           {
             "name": "SMART Recovery - Roanoke",
             "tier": "Structured Community",
-            "description": "Secular, CBT-based mutual support. Small group (8-12). No 12-step framework.",
-            "schedule": "Tue/Thu 6:30 PM, 90 min",
-            "location": "Rescue Mission, 2.1 mi",
+            "description": "Science-based mutual support group for people with addictive behaviors. Uses cognitive behavioral tools rather than a 12-step approach. Secular format. Typically 8-12 participants.",
+            "schedule": "Tuesdays and Thursdays 6:30 PM, 90 minutes",
+            "location": "Rescue Mission Community Room, 2.1 miles away",
             "cost": "Free",
-            "intake": "Drop-in"
+            "intake": "Drop-in, no registration"
           },
           {
             "name": "Roanoke Adult Softball League - Fall Season",
             "tier": "Lifestyle",
-            "description": "Co-ed rec league. Weekly practice + weekly game. Post-game at park (no bar). 8-week season.",
-            "schedule": "Sat 9 AM, Wed 6 PM",
-            "location": "Green Hill Park, 3.8 mi",
-            "cost": "$50 registration",
-            "intake": "Register online, placed on teams"
+            "description": "Recreational co-ed softball league. Teams practice once a week and play one game per week. Post-game gatherings at a nearby park (no bar). Season is 8 weeks.",
+            "schedule": "Saturdays 9:00 AM (games), Wednesday 6:00 PM (practice)",
+            "location": "Green Hill Park, 3.8 miles away",
+            "cost": "$50 registration fee",
+            "intake": "Register online, individuals placed on teams"
           },
           {
             "name": "Relapse Prevention Group - Valley Behavioral Health",
             "tier": "Clinical",
-            "description": "CBT skills group for triggers and coping strategies. Licensed addiction counselor. Closed group of 6-8.",
-            "schedule": "Mon 5:30 PM, 12 wks",
-            "location": "Valley Behavioral Health, 3.2 mi",
+            "description": "Structured skills-based group focused on identifying triggers and building coping strategies. CBT-oriented, led by licensed addiction counselor. Closed group of 6-8.",
+            "schedule": "Mondays 5:30 PM, 12 weeks",
+            "location": "Valley Behavioral Health, 3.2 miles away",
             "cost": "Insurance accepted",
-            "intake": "Provider referral"
+            "intake": "Provider referral, starts within 1 week"
           }
         ]
       },
@@ -390,29 +397,29 @@
           {
             "name": "Alcoholics Anonymous - Downtown Roanoke Group",
             "tier": "Structured Community",
-            "description": "Traditional 12-step. Large group (25-40). Open and closed meetings. Coffee and fellowship after.",
-            "schedule": "Daily, multiple times",
-            "location": "Grace Lutheran Church, 0.7 mi",
+            "description": "Daily AA meetings following the traditional 12-step program. Open and closed meetings available. Large group, typically 25-40 attendees. Coffee and fellowship after.",
+            "schedule": "Daily meetings, multiple times (7:00 AM, 12:00 PM, 8:00 PM)",
+            "location": "Grace Lutheran Church, 0.7 miles away",
             "cost": "Free",
-            "intake": "Walk in"
+            "intake": "Walk in to any open meeting"
           },
           {
-            "name": "Valley CMHC - Substance Use Outpatient Program",
+            "name": "Valley Community Mental Health Center - Substance Use Outpatient Program",
             "tier": "Clinical",
-            "description": "Individual counseling and process group therapy for substance use disorders. Ongoing enrollment.",
-            "schedule": "Mon/Wed/Fri AM",
-            "location": "Valley CMHC, 1.0 mi",
-            "cost": "Sliding scale, insurance",
-            "intake": "Call for intake"
+            "description": "Outpatient treatment program with individual counseling and process group therapy for substance use disorders. Ongoing enrollment.",
+            "schedule": "Mon/Wed/Fri mornings, various times",
+            "location": "Valley CMHC, 1.0 miles away",
+            "cost": "Sliding scale, insurance accepted",
+            "intake": "Call to schedule intake assessment"
           },
           {
             "name": "YMCA of Roanoke - Gym Membership",
             "tier": "Lifestyle",
-            "description": "Full gym, pool, group fitness, basketball courts. Open daily.",
-            "schedule": "Open daily",
-            "location": "Roanoke YMCA, 1.4 mi",
-            "cost": "$45/mo",
-            "intake": "Sign up at desk or online"
+            "description": "Full-service gym with weight room, pool, group fitness classes, and basketball courts. Open daily.",
+            "schedule": "Mon-Fri 5:00 AM - 10:00 PM, Sat-Sun 7:00 AM - 6:00 PM",
+            "location": "Roanoke YMCA, 1.4 miles away",
+            "cost": "$45/month",
+            "intake": "Sign up at front desk or online"
           }
         ]
       }
@@ -426,20 +433,22 @@
         "diagnosis": "ADHD, Predominantly Inattentive Type",
         "ageGroup": "Adolescent"
       },
-      "presentingProblem": "Diagnosed at 13 after academic difficulties. Medication helps at school but afternoons and weekends are unstructured. Spends most free time alone on screens. Parents concerned about social isolation.",
-      "currentTreatment": "Concerta 36mg daily before school. Psychiatrist every 2 months. No therapy. Parents involved.",
+      "presentingProblem": "Diagnosed at age 13 after increasing academic difficulties in middle school. Medication helps in school but afternoons and weekends are unstructured. Spends most free time alone on screens. Parents concerned about social isolation and lack of extracurriculars.",
+      "currentTreatment": "Concerta 36mg daily, taken before school. Sees psychiatrist every 2 months. No therapy currently. Parents involved in treatment.",
       "relevantHistory": [
-        "Lives with both parents and sister (12)",
-        "Small friend group from middle school dispersed across different high schools",
-        "Quiet and easygoing per teachers"
+        "Sophomore at a public high school",
+        "Lives with both parents and a younger sister (age 12)",
+        "Had a small friend group in middle school that dispersed across different high schools",
+        "Grades are average (B/C) with medication but homework completion is inconsistent",
+        "No behavioral issues, described as 'quiet and easygoing' by teachers"
       ],
-      "functionalStatus": "High school sophomore, B/C grades with medication. Medication effective 7am-3pm. Afternoons unmedicated and unstructured, 4-6 hours daily on YouTube and gaming. Socially passive but participates if someone else organizes.",
+      "functionalStatus": "Medication effective roughly 7am-3pm. Afternoons are unmedicated and unstructured. Spends 4-6 hours daily on YouTube and gaming. Socially passive: won't initiate plans but will participate if someone else organizes. Parents do most of the executive function scaffolding at home.",
       "patientReported": [
-        "Enjoys building things (Legos, Minecraft)",
-        "Interested in computers/coding but hasn't tried classes",
-        "Quit soccer because practices felt too long and repetitive",
-        "Prefers hands-on over sitting and listening",
-        "Does not want anything that feels 'like more school'"
+        "Likes building things, especially Legos and Minecraft",
+        "Interested in computers and coding but hasn't tried formal classes",
+        "Tried soccer in 6th grade but quit because practices felt too long and repetitive",
+        "Would rather do something with his hands than sit and listen",
+        "Doesn't want to be in anything that feels 'like more school'"
       ],
       "clinicalGoal": "Develop structured after-school and weekend activities that build social connections and executive function skills in a low-pressure environment.",
       "clinicianSettings": {
@@ -458,29 +467,29 @@
           {
             "name": "Roanoke Library - Teen Coding Club",
             "tier": "Lifestyle",
-            "description": "Weekly drop-in for teens 13-17. Project-based: build games and apps. Laptops provided. 4-8 teens per session.",
-            "schedule": "Thu 4-5:30 PM",
-            "location": "Main Branch Library, 2.0 mi",
+            "description": "Weekly drop-in coding sessions for teens ages 13-17. Project-based format where participants build games and apps. Laptops provided. Mentor available but kids work at their own pace. Typically 4-8 teens per session.",
+            "schedule": "Thursdays 4:00-5:30 PM",
+            "location": "Main Branch Library, 2.0 miles away",
             "cost": "Free",
-            "intake": "Drop-in"
+            "intake": "Drop-in, no registration"
           },
           {
             "name": "FIRST Robotics Team 4099 - Roanoke",
             "tier": "Structured Community",
-            "description": "High school robotics team. Design, build, program robots. Hands-on with engineering mentors. 15-20 students.",
-            "schedule": "Tue/Sat 10 AM-12 PM",
-            "location": "Patrick Henry HS, 3.1 mi",
+            "description": "High school robotics team that designs, builds, and programs robots for regional competitions. Hands-on building sessions with mentors from local engineering firms. New members welcome any time. Team of 15-20 students.",
+            "schedule": "Tuesdays and Saturdays 10:00 AM - 12:00 PM",
+            "location": "Innovation Lab at Patrick Henry High School, 3.1 miles away",
             "cost": "Free",
-            "intake": "Show up, ask for team captain"
+            "intake": "Show up to any session, ask for the team captain"
           },
           {
             "name": "Tinker Lab at Science Museum of Western Virginia",
             "tier": "Lifestyle",
-            "description": "Open workshop for teens. Electronics, 3D printers, hand tools. Different theme each session, self-directed.",
-            "schedule": "Sat 1-3 PM",
-            "location": "Science Museum, 2.8 mi",
-            "cost": "$5/session",
-            "intake": "Walk in, parent signs waiver"
+            "description": "Open workshop sessions for teens where participants build projects with electronics, 3D printers, and hand tools. Each session has a different theme but self-directed exploration is encouraged. No prior experience needed.",
+            "schedule": "Saturdays 1:00-3:00 PM",
+            "location": "Science Museum, 2.8 miles away",
+            "cost": "$5 per session, materials included",
+            "intake": "Walk in, sign waiver with parent"
           }
         ]
       },
@@ -491,29 +500,29 @@
           {
             "name": "CHADD Teen Support Group - Roanoke",
             "tier": "Structured Community",
-            "description": "Monthly teen ADHD support group. Facilitated discussion on school and social skills. 10-15 teens. Parents attend concurrent group.",
-            "schedule": "2nd Wed/month, 6:30-8 PM",
-            "location": "Roanoke Pediatric Center, 1.5 mi",
+            "description": "Monthly support group for teenagers with ADHD. Facilitated discussion format covering topics like school strategies, social skills, and self-advocacy. Parents attend a concurrent group. Typically 10-15 teens.",
+            "schedule": "Second Wednesday of each month, 6:30-8:00 PM",
+            "location": "Roanoke Pediatric Center, 1.5 miles away",
             "cost": "Free",
-            "intake": "Register on CHADD website"
+            "intake": "Register through CHADD website"
           },
           {
-            "name": "Roanoke Parks & Rec - Teen After-School Programs",
+            "name": "Roanoke Parks & Recreation - Teen After-School Programs",
             "tier": "Lifestyle",
-            "description": "Supervised after-school drop-in for teens 13-17. Activities vary: sports, games, arts, homework help.",
-            "schedule": "Mon-Fri 3-6 PM",
-            "location": "Preston Park Community Center, 0.9 mi",
+            "description": "Supervised after-school drop-in programs for teens ages 13-17. Activities vary daily and include sports, games, arts and crafts, and homework help.",
+            "schedule": "Mon-Fri 3:00-6:00 PM",
+            "location": "Preston Park Community Center, 0.9 miles away",
             "cost": "Free",
             "intake": "Parent signs registration form"
           },
           {
             "name": "Boy Scouts Troop 117 - Roanoke Valley",
             "tier": "Lifestyle",
-            "description": "Traditional scouting: weekly meetings, monthly campouts, badge advancement. ~30 scouts.",
-            "schedule": "Mon 7-8:30 PM, monthly campouts",
-            "location": "Trinity Methodist Church, 1.2 mi",
-            "cost": "$75/yr + uniform",
-            "intake": "Attend meeting with parent, registration paperwork"
+            "description": "Traditional scouting program with weekly meetings, monthly campouts, and badge advancement. Troop of approximately 30 scouts. Activities planned by older scouts with adult oversight.",
+            "schedule": "Mondays 7:00-8:30 PM, monthly campouts on weekends",
+            "location": "Trinity Methodist Church, 1.2 miles away",
+            "cost": "$75 annual membership plus uniform costs",
+            "intake": "Attend a meeting with parent, complete registration paperwork"
           }
         ]
       }
@@ -527,20 +536,22 @@
         "diagnosis": "Autism Spectrum Disorder, Level 1",
         "ageGroup": "Adolescent"
       },
-      "presentingProblem": "Diagnosed at 11. Academically strong but increasingly socially isolated in high school. Rigid routines, difficulty with unstructured social time. Meltdowns increasing since starting 9th grade from sensory overload and unexpected schedule changes.",
-      "currentTreatment": "No medication. Biweekly psychologist for social skills and emotional regulation. Parents are primary support.",
+      "presentingProblem": "Diagnosed at age 11. Academically strong but increasingly socially isolated in high school. Rigid routines and difficulty with unstructured social time. Meltdowns at home have increased since starting 9th grade, primarily triggered by sensory overload and unexpected schedule changes.",
+      "currentTreatment": "No medication currently. Sees a psychologist biweekly for social skills and emotional regulation. Parents are primary support system.",
       "relevantHistory": [
-        "Lives with both parents and older brother (17)",
-        "One close friend from middle school moved away last summer",
-        "No behavioral concerns at school, described as 'very quiet'"
+        "Freshman at a public high school, enrolled in honors classes",
+        "Lives with both parents and older brother (age 17)",
+        "Had one close friend in middle school who moved away last summer",
+        "Eats lunch alone in the library most days",
+        "No behavioral concerns at school but described as 'very quiet' by teachers"
       ],
-      "functionalStatus": "Honors freshman, high-performing academically but socially exhausted by end of school day. Needs 1-2 hours alone to decompress. Sensitive to loud noise, fluorescent lighting, crowds. Communicates well one-on-one but shuts down in groups over 4-5. Eats lunch alone in the library.",
+      "functionalStatus": "Academically high-performing but socially exhausted by the school day. Needs 1-2 hours of alone time after school to decompress. Sensory sensitivities to loud noise, bright/fluorescent lighting, and crowded spaces. Communicates well one-on-one or in writing but shuts down in groups larger than 4-5. Very organized when routine is predictable.",
       "patientReported": [
-        "Passionate about marine biology, can talk about it extensively",
-        "Enjoys detailed scientific illustrations of sea creatures",
-        "Finds most teen activities 'too loud and chaotic'",
-        "Wants friends but doesn't know how to start conversations outside her interests",
-        "Needs to know exactly what will happen before attending, including who will be there"
+        "Passionate about marine biology and ocean animals, can talk about it extensively",
+        "Enjoys drawing, especially detailed scientific illustrations of sea creatures",
+        "Finds most teen social activities 'too loud and confusing'",
+        "Wants friends but doesn't know how to start conversations that aren't about her interests",
+        "Prefers to know exactly what will happen at an activity before going, including who will be there"
       ],
       "clinicalGoal": "Build social connections through interest-based activities in sensory-appropriate, predictable environments with small group sizes.",
       "clinicianSettings": {
@@ -559,29 +570,29 @@
           {
             "name": "Virginia Aquarium Junior Volunteer Program",
             "tier": "Lifestyle",
-            "description": "Teen volunteer program: animal care and education. Work in pairs with staff mentor. Quiet behind-the-scenes areas. Full orientation before starting.",
-            "schedule": "Sat 9 AM-12 PM",
-            "location": "Western Virginia Aquarium, 4.5 mi",
+            "description": "Teen volunteer program at the aquarium focused on animal care and education. Volunteers work in pairs alongside a staff mentor in specific exhibit areas. Orientation includes a full walkthrough of duties and schedule before starting. Quiet behind-the-scenes areas.",
+            "schedule": "Saturdays 9:00 AM - 12:00 PM",
+            "location": "Western Virginia Aquarium, 4.5 miles away",
             "cost": "Free",
-            "intake": "Application + consent form, virtual orientation first"
+            "intake": "Application and parent consent form, virtual orientation before first visit"
           },
           {
             "name": "Art Studio 9 - Scientific Illustration for Teens",
             "tier": "Lifestyle",
-            "description": "Detailed observational drawing of natural subjects. Max 5 students. Quiet studio, natural lighting. Structured demos then independent work.",
-            "schedule": "Sun 2-4 PM, 8 wks",
-            "location": "Art Studio 9, 2.2 mi",
-            "cost": "$160/8 wks, materials provided",
-            "intake": "Register online, syllabus and studio photos sent after"
+            "description": "Small class focused on detailed observational drawing of natural subjects. Maximum 5 students. Quiet studio with natural lighting. Instructor provides structured demonstrations followed by independent work time.",
+            "schedule": "Sundays 2:00-4:00 PM, 8-week series",
+            "location": "Art Studio 9, 2.2 miles away",
+            "cost": "$160 for 8-week series, materials provided",
+            "intake": "Register online, detailed syllabus and studio photos sent after registration"
           },
           {
             "name": "Autism Society of Roanoke Valley - Teen Interest Groups",
             "tier": "Structured Community",
-            "description": "Small special interest groups for autistic teens (marine science, anime, coding). 3-5 teens with trained facilitator. Agenda shared before each meeting.",
-            "schedule": "Alternating Sat 1-2:30 PM",
-            "location": "Autism Society Office, 3.0 mi",
-            "cost": "Free ($25/yr family membership)",
-            "intake": "Interest survey, facilitator calls family before first meeting"
+            "description": "Small special interest groups for autistic teens organized around shared topics (current groups include marine science, anime, and coding). Groups of 3-5 teens with a trained facilitator. Structured agenda shared before each meeting.",
+            "schedule": "Alternating Saturdays 1:00-2:30 PM",
+            "location": "Autism Society Office, 3.0 miles away",
+            "cost": "Free for members ($25 annual family membership)",
+            "intake": "Parent completes interest survey, facilitator calls family before first meeting to discuss format and expectations"
           }
         ]
       },
@@ -592,29 +603,29 @@
           {
             "name": "Autism Society of Roanoke Valley - Teen Social Group",
             "tier": "Structured Community",
-            "description": "Biweekly structured social group for autistic teens 13-17. Predictable format: check-in, planned activity, quiet free time. 8-10 teens.",
-            "schedule": "Every other Fri, 5-7 PM",
-            "location": "Autism Society Office, 3.0 mi",
-            "cost": "Free ($25/yr family membership)",
-            "intake": "Parent calls to register, intake form"
+            "description": "Biweekly structured social group for autistic teens ages 13-17. Activities follow a predictable format: check-in, planned group activity, and free time in a quiet room. 8-10 teens per session. Facilitated by a licensed social worker.",
+            "schedule": "Every other Friday, 5:00-7:00 PM",
+            "location": "Autism Society Office, 3.0 miles away",
+            "cost": "Free for members ($25 annual family membership)",
+            "intake": "Parent calls to register, intake form required"
           },
           {
             "name": "Roanoke Library - Teen Creative Writing Workshop",
             "tier": "Lifestyle",
-            "description": "6-week guided writing workshop. Quiet individual time with optional sharing. Max 8. Small meeting room.",
-            "schedule": "Wed 4-5:30 PM, 6 wks",
-            "location": "Roanoke Public Library, 1.8 mi",
+            "description": "Structured 6-week workshop for teens. Guided prompts and quiet individual writing time with optional sharing at the end. Max 8 participants. Held in a small meeting room.",
+            "schedule": "Wednesdays 4:00-5:30 PM, 6-week series",
+            "location": "Roanoke Public Library, 1.8 miles away",
             "cost": "Free",
             "intake": "Registration required, curriculum shared in advance"
           },
           {
             "name": "Blue Ridge Nature Journal Club for Teens",
             "tier": "Lifestyle",
-            "description": "Monthly nature journaling at outdoor sites. Sketch and document wildlife. Quiet, self-directed. 5-8 teens with naturalist guide.",
-            "schedule": "1st Sat/month, 10 AM-12 PM",
-            "location": "Various trailheads, 2-4 mi",
+            "description": "Monthly nature journaling meetup where teens sketch and document local wildlife at outdoor sites. Quiet, self-directed activity with a naturalist guide. Groups of 5-8.",
+            "schedule": "First Saturday of each month, 10:00 AM - 12:00 PM",
+            "location": "Various trailheads, typically 2-4 miles away",
             "cost": "Free",
-            "intake": "Registration required, location shared 1 week before"
+            "intake": "Registration required, location shared one week in advance"
           }
         ]
       }
